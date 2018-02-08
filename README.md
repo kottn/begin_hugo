@@ -6,14 +6,15 @@ Debian 9
 
 ## インストール
 * https://github.com/gohugoio/hugo/releases にアクセス
-* 最新の`*.deb`をダウンロード（2018年2月現在:v0.36）
-* ダウンロード先に移動
+* 最新の`*.deb`をダウンロード
+* ダウンロード先に移動してインストール
 ```
 cd ~/Downloads
+sudo apt install *.deb
 ```
-* インストール
+* 確認
 ```
-sudo apt install ./*.deb
+hugo version
 ```
 
 ## テーマを選ぶ
