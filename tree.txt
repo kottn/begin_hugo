@@ -1,0 +1,11 @@
+mypage/
+|-- archetypes/
+|   `-- default.md
+|-- config.toml
+|-- content/
+|-- data/
+|-- layouts/
+|-- static/
+`-- themes/
+
+6 directories, 2 files
