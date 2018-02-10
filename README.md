@@ -1,9 +1,9 @@
-# kickoff_hugo
+# begin_hugo
 :baby:はじめてのhugo
 
 ## やること
 [GitHub Pages](https://pages.github.com/) + [Hugo](https://themes.gohugo.io/)
-1. リポジトリ`https://github.com/<YourID>/<RepoName>`で自己紹介ページを作成・管理する
+1. リポジトリ`https://github.com/<YourID>/<RepoName>`の中で自己紹介ページを作成し管理する
 1. それを`https://<YourID>.github.io/<RepoName>`で見れるようにする（GitHub Pages の機能）
 1. `html`が面倒だから`Markdown`で投稿できるようにする（Hugo の機能）
 
