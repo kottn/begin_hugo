@@ -1,5 +1,5 @@
 # begin_hugo
-:baby:はじめてのhugo
+:beginner:はじめてのhugo
 
 ## What's hugo?
 記事用のテンプレートファイルを元にHTMLファイルを生成してくれるツール
