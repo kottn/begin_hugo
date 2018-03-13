@@ -35,10 +35,13 @@ $ hugo version
 
 ## サイトをつくる
 ### サイト生成
-* 今回作るリポジトリ`<リポジトリ名>`：`mypage` ※別になんでもいい
+* 今回は`<リポジトリ名>`=`mypage` （※別になんでもいい）
 * `hugo`コマンドで`mypage`というテンプレートディレクトリをつくる
 ```
 $ hugo new site mypage    #テンプレート生成
+```
+* 生成物
+```
 $ tree mypage
 mypage/
 |-- archetypes/
@@ -51,10 +54,20 @@ mypage/
 `-- themes/
 ```
 
-### 記事生成
-
 ### テーマを選ぶ
-
 * [ここ](https://themes.gohugo.io)から。
+* 今回は[Temple](https://themes.gohugo.io/temple/)を例にする。
 
-## 
+### 初期設定
+1. テーマを`clone`する
+    ```
+    $ cd themes && git clone https://github.com/aos/temple.git
+    ```
+1. テーマやサイト名などを`config.toml`に書く  
+    ```
+    $ cat config.toml                    # 初期状態の確認
+    baseURL = "http://example.org/"
+    languageCode = "en-us"
+    title = "My New Hugo Site"
+    ```
+
