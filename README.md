@@ -1,14 +1,15 @@
 # begin_hugo
 :beginner: はじめてのhugo
 
-## What's hugo?
-記事用のテンプレートファイルを元にHTMLファイルを生成してくれるツール
+## hugo?
+* 記事用のテンプレートファイルを元にHTMLファイルを生成してくれるツール。
+* 楽にマイページが作れる・更新できる。
 
 ## やること
 [GitHub Pages](https://pages.github.com/) + [Hugo](https://themes.gohugo.io/) で自己紹介ページを作る
-1. リポジトリ`https://github.com/<アカウント名>/<リポジトリ名>`の中でページを作成・管理する
-1. それを`https://<アカウント名>.github.io/<リポジトリ名>`で見れるようにする（GitHub Pages の機能）
-1. そんなに凝ったものじゃなくていいから`HTML`じゃなくて`Markdown`で管理する（Hugo の機能）
+1. リポジトリ`https://github.com/<アカウント名>/<リポジトリ名>`でページを管理する
+1. 他の人はそれを`https://<アカウント名>.github.io/<リポジトリ名>`で見れる（GitHub Pages の機能）
+1. シンプルなサイトでいいから`HTML`じゃなくて`Markdown`で管理する（Hugo の機能）
 
 ## 資料
 * [Hugo公式の資料](https://gohugo.io/hosting-and-deployment/hosting-on-github/)がわかるならそれで十分です。
@@ -34,11 +35,11 @@ $ hugo version
 
 ## サイトをつくる
 ### サイト生成
-* 今回作るリポジトリ`<リポジトリ名>`は`mypage`とする（別になんでもいい）
-* `hugo`コマンドでテンプレート付きで`mypage`ディレクトリをつくる
+* 今回作るリポジトリ`<リポジトリ名>`：`mypage` ※別になんでもいい
+* `hugo`コマンドで`mypage`というテンプレートディレクトリをつくる
 ```
 $ hugo new site mypage    #テンプレート生成
-$ tree -F mypage
+$ tree mypage
 mypage/
 |-- archetypes/
 |   `-- default.md
@@ -48,8 +49,6 @@ mypage/
 |-- layouts/
 |-- static/
 `-- themes/
-
-6 directories, 2 files
 ```
 
 ### 記事生成
