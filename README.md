@@ -7,8 +7,8 @@
 
 ## やること
 [GitHub Pages](https://pages.github.com/) + [Hugo](https://themes.gohugo.io/) で自己紹介ページを作る
-1. リポジトリ`https://github.com/<アカウント名>/<リポジトリ名>`でページを管理する
-1. 他の人はそれを`https://<アカウント名>.github.io/<リポジトリ名>`で見れる（GitHub Pages の機能）
+1. リポジトリ`https://github.com/<アカウント名>/<リポジトリ名>`でコンテンツを管理する
+1. それを`https://<アカウント名>.github.io/<リポジトリ名>`にてHP的に表示する（GitHub Pages の機能）
 1. シンプルなサイトでいいから`HTML`じゃなくて`Markdown`で楽に管理する（Hugo の機能）
 
 ## 参考資料
@@ -27,6 +27,7 @@ Debian 9 / Ubuntu 16.04
 $ cd ~/Downloads
 $ sudo apt install hugo_*.deb
 ```
+* ちなみに Go 言語製だが Go はいらない
 
 * コマンド確認
 ```
@@ -102,14 +103,26 @@ mypage/
     ```
     ```
     ---
-    title: "Hello World              # ファイル名をもとに自動生成
+    title: "Hello World"             # ファイル名をもとに自動生成
     date: 2018-03-13T19:14:03+09:00  # 自動生成
     draft: true                      # 自動生成
     ---
 
-    ### こんにちは！これが私の hugo 初投稿です。 # 追記
-    皆さん、よろしくお願いいたします！           # 追記
+    ## Hi !
+    ### こんにちは！これが私の hugo 初投稿です。      # 追記
+    #### 皆さん、よろしくお願いいたします！           # 追記
+
+    * 箇条書きも  # 追記
+    * できるよ  # 追記
     ```
 
-1. 見てみる。
+1. ローカルで見てみる
+    1. hugo server (確認用のローカルサーバ）を立ち上げる
+    ```
+    $ hugo server -D    # mypage/ 下で実行
+    ```
+    1. ブラウザのURL欄：`localhost:1313/mypage/`としてEnter
+    1. みれる
+
+    
 
