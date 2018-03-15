@@ -101,8 +101,8 @@ mypage/
 ### 早速書いてみる
 1. 記事のフォーマットを作成、編集。
     ```
-    $ hugo new post/hello-world.md  # => /mypage/content/post/hello-world.md が生成
-    $ vi content/post/hello-world.md
+    $ hugo new posts/hello-world.md  # => /mypage/content/posts/hello-world.md が生成
+    $ vi content/posts/hello-world.md
     ```
     ```
     ---
