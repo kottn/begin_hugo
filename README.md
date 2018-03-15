@@ -68,7 +68,7 @@ mypage/
     $ cat config.toml
     baseURL = "https://kottn.github.io/mypage"
     languageCode = "ja"
-    title = "kottn's brain"
+    title = "kottn's posts"
     theme = "temple"
 
     [params]
@@ -92,7 +92,7 @@ mypage/
     [author]
       name = "kottn"
       github = "kottn"
-      twitter = "kottn"
+      twitter = "kottn_jp"
     ```
 
 ### 早速書いてみる
@@ -103,9 +103,9 @@ mypage/
     ```
     ```
     ---
-    title: "Hello World"             # ファイル名をもとに自動生成
-    date: 2018-03-13T19:14:03+09:00  # 自動生成
-    draft: true                      # 自動生成
+    title: "Hello World"             # 自動
+    date: 2018-03-13T19:14:03+09:00  # 自動
+    draft: true                      # 自動
     ---
 
     ## Hi !
