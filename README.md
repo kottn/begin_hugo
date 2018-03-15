@@ -93,7 +93,7 @@ mypage/
       category = "categories"
 
     [author]
-      name = "kottn"
+      name = "2017 Takuma Kotani."
       github = "kottn"
       twitter = "kottn_jp"
     ```
