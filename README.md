@@ -71,6 +71,9 @@ mypage/
     title = "kottn's posts"
     theme = "temple"
 
+    [permalinks]
+        posts = "/:year/:month/:slug/"
+
     [params]
       # Enables syntax highlighting
       highlight = true 
@@ -113,7 +116,7 @@ mypage/
     #### 皆さん、よろしくお願いいたします！           # 追記
 
     * 箇条書きも  # 追記
-    * できるよ  # 追記
+    * できるよ    # 追記
     ```
 
 1. ローカルで見てみる
